@@ -102,7 +102,8 @@ int main()
 	
 	//ConvertToDOC();
 	//ConvertToDOCX();
-	ConvertToSVG();
+	//ConvertToSVG();
+	SaveOnMemory();
 
 	// Stop before exiting
 	printf("\n\nProgram Finished. Press any key to exit....");

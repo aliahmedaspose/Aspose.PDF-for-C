@@ -134,6 +134,7 @@ copy "$(ProjectDir)lib\Release\aspose.pdf_vc141x64.dll" "$(OutDir)"</Command>
     <ClCompile Include="Bookmarks\CreateChildBookmark.cpp" />
     <ClCompile Include="Bookmarks\DeleteAllBookmarks.cpp" />
     <ClCompile Include="Bookmarks\DeleteBookmark.cpp" />
+    <ClCompile Include="Conversion\SaveOnMemory.cpp" />
     <ClCompile Include="Conversion\ConvertToDOCX.cpp" />
     <ClCompile Include="Conversion\ConvertToDOC.cpp" />
     <ClCompile Include="Conversion\ConvertToSVG.cpp" />

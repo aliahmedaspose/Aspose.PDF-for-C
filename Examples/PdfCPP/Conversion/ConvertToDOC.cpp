@@ -1,12 +1,12 @@
 #include "Aspose.Pdf.h"
-#include <DocSaveOptions.h>
+#include "SaveFormat.h"
 using namespace System;
 using namespace Aspose::Pdf;
 
 void ConvertToDOC()
 {
-	// ExStart:ConvertToDoc	
+	// ExStart:ConvertToDOC
 	auto doc = MakeObject<Document>(u"..\\Data\\Document\\input.pdf");
-	doc->Save(u"..\\Data\\Document\\input_out.doc", MakeObject<DocSaveOptions>());
-	// ExEnd:ConvertToDoc	
+	doc->Save(u"..\\Data\\Document\\input_out.doc", SaveFormat:: Doc);
+	// ExEnd:ConvertToDOC	
 }

@@ -153,6 +153,7 @@
     <ClCompile Include="Conversion\ConvertToDOCX.cpp" />
     <ClCompile Include="Conversion\ConvertToDOC.cpp" />
     <ClCompile Include="Conversion\ConvertToSVG.cpp" />
+    <ClCompile Include="Conversion\SaveOnMemory.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PdfExamples.h" />

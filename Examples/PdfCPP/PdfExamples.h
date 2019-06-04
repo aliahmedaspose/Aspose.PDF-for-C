@@ -127,3 +127,5 @@ void ConvertToDOC();
 void ConvertToDOCX();
 // Convert to SVG
 void ConvertToSVG();
+// Save on Memory
+void SaveOnMemory();
